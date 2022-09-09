@@ -107,8 +107,15 @@ Name | Description | Minified | Gzipped
  [postcss-mixins](https://github.com/postcss/postcss-mixins) | PostCSS plugin for mixins | 92.2kB | 28.9kB
 
 
-## Next Steps
-Perhaps there is opportunity make component styles loaded by `styleLoader` more efficient?
+## Thoughts & Next Steps
+Perhaps there is another configuration of PostCSS which outperforms Sass.
+
+There may be some component styles that can use vanilla CSS which wouldn't need to be compiled.
+
+Perhaps there is opportunity make component styles loaded by `styleLoader` more efficient? We could substantially reduce the number of modules if we could find a way to group the component styles together.
+
+
+
 
 
 
